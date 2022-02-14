@@ -11,17 +11,17 @@
 		<img src='images/icon.png' alt='logo' class='header_icon' width='174px'>
 		<div class='hide_nav'>
 		<ul>
-			<a href=''><li class='hide_nav_elem'>Home</li></a> <br>
+			<a href='#head'><li class='hide_nav_elem'>Home</li></a> <br>
 			<a href='#services'><li class='hide_nav_elem'>Service</li></a> <br>
-			<a href=''><li class='hide_nav_elem'>Extension</li></a> <br>
+			<a href='#comments'><li class='hide_nav_elem'>Extension</li></a> <br>
 			<a href=''><li class='hide_nav_elem'>Pricing</li></a> <br>
 			<a href=''><li class='hide_nav_elem'>Help</li></a>
 		</ul>
 		</div>
 		<ul class='header_nav'>
-			<a href=''><li class='header_nav_elem'>Home</li></a>
+			<a href='#head'><li class='header_nav_elem'>Home</li></a>
 			<a href='#services'><li class='header_nav_elem'>Service</li></a>
-			<a href=''><li class='header_nav_elem'>Extension</li></a>
+			<a href='#comments'><li class='header_nav_elem'>Extension</li></a>
 			<a href=''><li class='header_nav_elem'>Pricing</li></a>
 			<a href=''><li class='header_nav_elem'>Help</li></a>
 		</ul>
@@ -29,7 +29,7 @@
 		<button class='header_signin'>sign up</button>
 		<button class='hide_but'></button>
 	</div>
-	<div class='head'>
+	<div id='head' class='head'>
 		<div class='head_left'>
 			<h1 class='head_left_mainText'>lorem Ipsum Dolor sit amet</h1>
 			<p class='head_left_text'>
@@ -156,7 +156,7 @@
 			</p>
 		</div>
 	</div>
-	<div class='comments'>
+	<div id='comments' class='comments'>
 		<div class='comments_main'>
 			<h1 class='comments_main_mainText'>What our customers have to say about us.</h1>
 			<p class='comments_main_text'>
@@ -164,10 +164,45 @@
 			</p>
 			<button class='comments_main_button'>GET STARTED</button>
 		</div>
-		<div class='comments_comm'></div>
+		<div class='comments_comm'>
+			<div class='c_button_div'>
+			<button class='comments_comm_up'></button>
+			</div>
+			<div class='comments_comm_part'>
+				<img class='comments_com_part_img' src='images/c_avatar1.png'>
+				<div class='comments_comm_part_text'>
+					<h4 class='comments_comm_part_text_main'>Jhon Doe</h4>
+					<p class='comments_comm_part_text_other'>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					</p>
+				</div>
+			</div>
+			<div class='comments_comm_part'>
+				<img class='comments_com_part_img' src='images/c_avatar2.png'>
+				<div class='comments_comm_part_text'>
+					<h4 class='comments_comm_part_text_main'>Khalessi</h4>
+					<p class='comments_comm_part_text_other'>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					</p>
+				</div>
+			</div>
+			<div class='comments_comm_part'>
+				<img class='comments_com_part_img' src='images/c_avatar3.png'>
+				<div class='comments_comm_part_text'>
+					<h4 class='comments_comm_part_text_main'>Robert Stewentson</h4>
+					<p class='comments_comm_part_text_other'>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					</p>
+				</div>
+			</div>
+			<div class='c_button_div'>
+			<button class='comments_comm_down'></button>
+			</div>
+		</div>
 	</div>
 
 	<script src='scriptForHiddenMenu.js'></script>
 	<script src='scriptForExpandMore.js'></script>
+	<script src='scriptForComments.js'></script>
 </body>
 </html>
